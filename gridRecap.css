@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    background-color: rgb(100, 136, 255);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    width: 100%;
+    gap: 30px;
+    /* border: 2px solid red; */
+}
+
+.card{
+    background-color: white;
+    width: 350px;
+    border: 2px solid red;
+}
+.card div img{
+        width: 100%;
+}
+section{
+    padding: 3px 20px;
+}

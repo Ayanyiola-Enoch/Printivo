@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.whiteNav{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.whiteNav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.whiteNav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.otherSide{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.otherSide p a{
+    text-decoration: none;
+    color: rgb(33, 134, 134);
+}
+
+.country{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid rgb(182, 181, 181);
+    padding: 7px 15px;
+    border-radius: 30px;
+}
+
+
+.brownNav{
+    background-color: #ede8d8;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.leftLink{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    
+}
+
+.leftLink a{
+    text-decoration:none;
+    color: black;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .whiteNav ul{
+        display: none;
+    }
+
+    .whiteNav{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .otherSide p span{
+        display: none;
+    }
+
+    .all{
+        display: none;
+    }
+
+    .brownNav{
+        padding: 15px;
+    }
+    .leftLink .creato{
+        display: none;
+    }
+}
